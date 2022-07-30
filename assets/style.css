@@ -1,0 +1,113 @@
+* {
+    text-decoration: none;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.exchange {
+    display: flex;
+    gap: 10px;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.dollar {
+    border: 1px solid #3b5998;
+    
+}
+
+.dollar:hover {
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease;
+    
+}
+
+.euro {
+    border: 1px solid #d34836;
+}
+
+.euro:hover {
+    background-color: #d34836;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease-out;
+}
+
+.Rl {
+    border: 1px solid #00aced;
+}
+
+.Rl:hover {
+    background-color: #00aced;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+
+
+.tl {
+    border: 1px solid #f60;
+}
+
+.tl:hover {
+    background-color: #f60;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease;
+
+
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    font-size: 34px;
+    font-weight: bold;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.header {
+    align-items: center;
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #da0000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 80px;
+
+
+
+}
+
+.header-bottom a {
+    color: #fff;
+    font-size: 24px;
+    align-items: center;
+    font-weight: 400;
+    padding: 14px;
+}
+
+article{
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 34px;
+    }
+    
