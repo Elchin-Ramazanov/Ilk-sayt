@@ -1,12 +1,22 @@
 * {
     text-decoration: none;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header-top {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     padding: 15px;
+    width: 100%;
 }
 
 .exchange {
@@ -14,6 +24,7 @@
     gap: 10px;
     background-color: #eee;
     padding: 20px;
+
 }
 
 .dollar {
@@ -49,9 +60,7 @@
     color: white;
     cursor: pointer;
     transition: 1s ease;
-
 }
-
 
 .tl {
     border: 1px solid #f60;
@@ -61,11 +70,8 @@
     background-color: #f60;
     color: white;
     cursor: pointer;
-    transition: 1s ease;
-
-
+    transition: 1s ease
 }
-
 
 .circle {
     width: 50px;
@@ -86,21 +92,21 @@ section.header {
 
 .header-bottom {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    gap: 7px;
     background-color: #da0000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 80px;
-
-
-
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .header-bottom a {
     color: #fff;
     font-size: 24px;
-    align-items: center;
     font-weight: 400;
     padding: 14px;
+    
 }
 
 article{
@@ -109,5 +115,6 @@ article{
     font-style: italic;
     font-weight: 200;
     font-size: 34px;
+    text-align: justify;
     }
     
